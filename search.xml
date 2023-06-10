@@ -21,7 +21,7 @@
       <link href="/2023/06101.html"/>
       <url>/2023/06101.html</url>
       
-        <content type="html"><![CDATA[<hr><h2 id="Matlab画图并在图中标记数据点"><a href="#Matlab画图并在图中标记数据点" class="headerlink" title="Matlab画图并在图中标记数据点"></a>Matlab画图并在图中标记数据点</h2><pre class=" language-Matlab"><code class="language-Matlab">x = linspace(0,10);y = sin(x);hold onplot(x,y);stem(0.5*pi,1,'--',"Marker",'.');%画出虚线%标记x轴和y轴箭头annotation('arrow',[0.1317 0.1317],[0.1075 0.9753])annotation('arrow',[0.1308 0.9716],[0.1087 0.1113])%画出标记箭头和标记点的值annotation('textarrow',[0.353 0.2556],[0.95 0.9275],'String','(\pi/2,1)')</code></pre><p><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动"></p><p>效果图</p><p><img src="D:\HexoImage\9bd2faee98224fa5ae873b3864a5c5ac.png" alt="img"></p>]]></content>
+        <content type="html"><![CDATA[<hr><h2 id="Matlab画图并在图中标记数据点"><a href="#Matlab画图并在图中标记数据点" class="headerlink" title="Matlab画图并在图中标记数据点"></a>Matlab画图并在图中标记数据点</h2><pre class=" language-Matlab"><code class="language-Matlab">x = linspace(0,10);y = sin(x);hold onplot(x,y);stem(0.5*pi,1,'--',"Marker",'.');%画出虚线%标记x轴和y轴箭头annotation('arrow',[0.1317 0.1317],[0.1075 0.9753])annotation('arrow',[0.1308 0.9716],[0.1087 0.1113])%画出标记箭头和标记点的值annotation('textarrow',[0.353 0.2556],[0.95 0.9275],'String','(\pi/2,1)')</code></pre><p><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动"></p><p>效果图</p><p><img src="D:\Hexo\source\image\xiaoguotu.png" alt="xiaoguotu"></p>]]></content>
       
       
       
